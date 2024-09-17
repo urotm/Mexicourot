@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText aboutMeInput;
     private Button saveButton;
 
-    @Override
+    
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         saveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+            
             public void onClick(View v) {
 
                 String name = nameInput.getText().toString();
